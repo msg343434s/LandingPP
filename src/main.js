@@ -7,9 +7,6 @@ const SENDER_EMAIL = 'hannah.whitehair2026@pelrb.nm-gov'
 document.querySelector('#app').innerHTML = `
   <div class="landing-container">
     <div class="message-card">
-      <h1 class="sender-info">
-        ${SENDER_NAME} (<a href="mailto:${SENDER_EMAIL}" class="email-link">${SENDER_EMAIL}</a>) has sent you a message.
-      </h1>
 
       <a href="${PROFILE_LINK}" class="view-message-btn">
         View Message
